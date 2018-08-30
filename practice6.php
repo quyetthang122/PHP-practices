@@ -8,18 +8,19 @@
     
     <?php
     
-  //define string
+    //define a string
     
-    $str = "serendipity";
+    $str = "ha ";
     
-    //remove first 6 characters
-    // result: "ipity"
+    // repeat string
+    // result: " ha ha ha ha ha"
     
-    $newStr = substr($str, 6);
+    $newStr = str_repeat($str, 5);
     
     echo $newStr;
     
     ?>
+    
     
     
     
